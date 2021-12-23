@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+.select{
+  cursor: pointer;
+ 
+}
+.textoSelect{
+  color: tomato;
+}
+.w-ancho{
+  width: 4rem;
+}
+.lineado{
+  line-height : 15px;
+}
+.marca{
+  color: gray;
+}
+.price{
+  color: green;
+}
+.form-check-input[type="checkbox"] {
+ 
+  width: 1rem;
+}
+.text-center {
+  text-align: center !important;
+  margin-left: -1rem;
+}
