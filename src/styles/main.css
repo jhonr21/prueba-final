@@ -21,11 +21,13 @@
 .marca{
   color: gray;
 }
-.price{
+.price {
   color: green;
-}
+  display: flex;
+  margin-left: 15em;
+  margin-top: -2rem;}
 .form-check-input[type="checkbox"] {
- 
+
   width: 1rem;
 }
 .text-center {

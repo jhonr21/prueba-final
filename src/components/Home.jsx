@@ -48,15 +48,8 @@ const handlechange = (e) => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td className='w-25'>
-                                                <div className='d-flex justify-content-around'>
-                                                    <input type="checkbox" className='m-4 form-check-input' />
-                                                    <div className='col-2 w-50'>
-                                                        <input type="text" className='form-control mt-3 text-center' min="1" value={2} />
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td className='w-100 d-flex justify-content-between'>
+                     
+                                            <td className='w-100 justify-content-between'>
                                             {product.ingredients ? (product.ingredients.map((p, i) => (
                                                 <tr >
                                                     <td className='w-25'>
@@ -74,7 +67,7 @@ const handlechange = (e) => {
                                                             </div>
                                                         </div>
                                                     </td>
-                                                    <td className='w-100 d-flex justify-content-between'>
+                                                    <td className='w-100 d-fex justify-content-between'>
                                                         <div>
                                                             <h6><b>{p.product}</b></h6>
                                                             <div className='lineado'>
