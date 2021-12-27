@@ -10,6 +10,7 @@ export const productReducers = (state = initialState, action) => {
     case types.list:
       return {
         product: action.payload,
+        
       };
     default:
       return state;

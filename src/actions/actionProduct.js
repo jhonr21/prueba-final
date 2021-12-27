@@ -56,4 +56,15 @@ export const carrito = (product) => {
     }
 }
 
-
+export const carritoP = (product) => {
+    return {
+        type: types.carrito,
+        payload: product
+    }
+}
+export const carritoUdapte = (product) => {
+    return {
+        type: types.carritoUpdate,
+        payload: product
+    }
+}

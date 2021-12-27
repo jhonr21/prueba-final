@@ -20,12 +20,12 @@
 }
 .marca{
   color: gray;
+  padding-top: 1rem;
 }
 .price {
   color: green;
-  display: flex;
-  margin-left: 15em;
-  margin-top: -2rem;}
+  margin-top: 26px;
+}
 .form-check-input[type="checkbox"] {
 
   width: 1rem;
@@ -34,3 +34,14 @@
   text-align: center !important;
   margin-left: -1rem;
 }
+
+div.detalles{
+  padding-top: 12px;
+  
+}
+
+  .lineado {
+    line-height: 12px;
+    margin-top: -8px;
+    font-size: 15px;
+  }

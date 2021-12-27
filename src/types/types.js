@@ -2,5 +2,6 @@ export const types = {
     login: '[Auth] login',
     register: '[Auth]register',
     list: '[List] List',
-    carrito:'[carrito] carrito'
+    carrito:'[carrito] carrito',
+    carritoUpdate:'[carritoUpdate] carritoUpdate'
 }
